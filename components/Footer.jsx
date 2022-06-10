@@ -7,7 +7,9 @@ const Footer = () => {
       <p>2022 @Debrightess All rights reserverd</p>
       <p className='icons'>
         <AiFillInstagram />
-        <AiOutlineTwitter href='https://www.twitter.com/debrightess' />
+        <a href='https://www.twitter.com/debrightess'>
+          <AiOutlineTwitter />
+        </a>
       </p>
     </div>
   )
